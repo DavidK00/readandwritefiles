@@ -17,3 +17,4 @@ for record in employee_pay:
     print('Total Pay:', "${:,.2f}".format(total_pay))
     input()
     
+    
