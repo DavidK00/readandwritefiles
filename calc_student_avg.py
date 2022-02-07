@@ -12,7 +12,7 @@ for record in scores:
     score1 = int(record[1])
     score2 = int(record[2])
     score3 = int(record[3])
-    avg_score = round((score1 + score2 + score3),2)
+    avg_score = round((score1 + score2 + score3)/3,2)
 
     outfile.write(str(avg_score) + '\n')
 
